@@ -13,7 +13,7 @@ class Example(Screen):
         for x in range(8):
             index += 1
             coordX = 11*x + 15                     
-            self.elements.append(CoolImage((coordX, 50), 10, 10, "./imgs/Jfat.jpg.png", index))
+            self.elements.append(CoolImage((coordX, 50), 10, 10, "./imgs/picture.png", index))
 
 
 class CoolImage(Image):
