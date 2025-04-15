@@ -2,6 +2,7 @@ from PyUI.Window import Window
 ##import the custom screens you made---
 from PerFrame import PerFrame
 from InitVersion import InitVersion
+from IFVE import Ifve
 ##-------------------------------------
 
 
@@ -12,7 +13,7 @@ perFrame = PerFrame(window)
 initFrame = InitVersion(window)
 ##-----------------------------------
 
-screen = initFrame ##set screen to be the starting screen
+screen = Ifve(window) ##set screen to be the starting screen
 
 while True: ##Game loop
     ##Enter code here to handle changes between screens---
