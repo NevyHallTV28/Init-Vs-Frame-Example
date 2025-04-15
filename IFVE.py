@@ -2,7 +2,7 @@ from PyUI.Screen import Screen
 from PyUI.PageElements import *
 class Ifve(Screen):
     def __init__(self, window):
-        super().__init__(window, (10, 0, 145))
+        super().__init__(window, (153, 15, 2))
         self.elements = [
         ]
         #create board with a range 
