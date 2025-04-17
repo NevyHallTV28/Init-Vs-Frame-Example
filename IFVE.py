@@ -9,7 +9,7 @@ class Ifve(Screen):
         index = -1
         for x in range(8):
             index += 1
-            coordX = 11*x + 15                     
+            coordX = 10*x + 15                     
             self.elements.append(ImageClass((coordX, 50), 10, 10, "./imgs/picture.png", index))
 class ImageClass(Image):
     def __init__(self, centerXY, width, height, imagePath, index):
